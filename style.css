@@ -1,0 +1,120 @@
+.cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    font-size: 150px;
+    background-color: black;
+    /* font-weight: 900; */
+    font-family: 'Roboto Mono', monospace;
+    color: #fff;
+}
+
+.img{
+    width: 1519px;
+    height: 200px;
+}
+
+/* Barbad */
+
+@media (min-width: 353px) and (max-width:490px){
+    .cont{
+        position: absolute;
+        left: 5px;
+        width: 630px;
+        height: 900px;
+        font-size: 100px;
+        background-color: black;
+        /* font-weight: 900; */
+        font-family: 'Roboto Mono', monospace;
+        color: #fff;
+    }
+
+    .img{
+        position: absolute;
+        top: 900px;
+        width: 630px;
+    }
+}
+
+@media (min-width:315px) and (max-width:350px){
+    .cont{
+        position: absolute;
+        left: 5px;
+        width: 310px;
+        height: 650px;
+        font-size: 50px;
+        background-color: black;
+        /* font-weight: 900; */
+        font-family: 'Roboto Mono', monospace;
+        color: #fff;
+    }
+    .img{
+        position: absolute;
+        top: 450px;
+        width: 310px;
+        display: none;
+    }
+}
+
+@media (min-width:500px) and (max-width:770px){
+    
+    .cont{
+        position: absolute;
+        left: 5px;
+        width: 700px;
+        height: 900px;
+        font-size: 100px;
+        background-color: black;
+        /* font-weight: 900; */
+        font-family: 'Roboto Mono', monospace;
+        color: #fff;
+    }
+    
+    .img{
+        position: absolute;
+        top: 900px;
+        width: 700px;
+    }
+}
+
+@media (min-width:200px) and (max-width:340px){
+    .cont{
+        position: absolute;
+        left: 5px;
+        width: 310px;
+        height: 650px;
+        font-size: 50px;
+        background-color: black;
+        /* font-weight: 900; */
+        font-family: 'Roboto Mono', monospace;
+        color: #fff;
+    }
+    .img{
+        position: absolute;
+        top: 450px;
+        width: 310px;
+        display: none;
+    }
+}
+
+@media (min-width:799px) and (max-width:1284px){
+    
+    .cont{
+        position: absolute;
+        left: 5px;
+        width: 780px;
+        height: 1050px;
+        font-size: 100px;
+        background-color: black;
+        /* font-weight: 900; */
+        font-family: 'Roboto Mono', monospace;
+        color: #fff;
+    }
+    
+    .img{
+        position: absolute;
+        top: 1050px;
+        width: 780px;
+    }
+}
